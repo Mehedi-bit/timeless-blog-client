@@ -55,7 +55,7 @@ const Home = () => {
     return doc.body.textContent;
   };
 
-  const maxTitleLen = 22;
+  const maxTitleLen = 50; // OR 22
   const maxDescriptionLen = 570;
 
   const chooseTitleLength = (title) => {
